@@ -1,3 +1,4 @@
+LICENSE
 README.md
 setup.py
 wormdatamodel/__init__.py

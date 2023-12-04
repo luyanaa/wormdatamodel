@@ -20,7 +20,7 @@ class CustomBuildExtCommand(build_ext):
 
 _legacy_c = Extension('wormdatamodel.data._legacy_c',
                     sources = ['wormdatamodel/data/_legacy_c.cpp'],
-                    include_dirs = [],
+                    include_dirs=[numpy.get_include()],
                     extra_compile_args=['-O3','-D_FILE_OFFSET_BITS=64'])#
                     
 # Get git commit info to build version number/tag

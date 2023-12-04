@@ -1,10 +1,7 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: wormdatamodel
 Version: 1.5
 Summary: Data models for whole brain imaging recordings.
-Home-page: UNKNOWN
 Author: Francesco Randi
 Author-email: francesco.randi@gmail.com
-License: UNKNOWN
-Description: UNKNOWN
-Platform: UNKNOWN
+License-File: LICENSE
